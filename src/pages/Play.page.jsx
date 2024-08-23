@@ -15,7 +15,7 @@ const PlayPage = () => {
             <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3 flex items-center">
               <Poster
                 isPlay={true}
-                src="https://assets-in.bmscdn.com/nmcms/events/banner/desktop/media-desktop-so-rude-of-me-by-swati-sachdeva-0-2022-9-4-t-6-10-37.jpg"
+                src="https://assets-in.bmscdn.com/nmcms/events/banner/desktop/media-desktop-so-rude-of-me-by-swati-sachdeva-0-2022-11-21-t-7-9-55.jpg"
                 title="So Rude of Me By Sweets"
                 subtitle="Comedy Shows | English, Kannada | 18yrs+ | 2hr 30mins"
               />
@@ -23,7 +23,7 @@ const PlayPage = () => {
             <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3 flex items-center">
               <Poster
                 isPlay={true}
-                src="https://assets-in.bmscdn.com/nmcms/events/banner/desktop/media-desktop-suhani-shah-kahaani-india-tour-0-2022-8-29-t-12-36-14.jpg"
+                src="https://assets-in.bmscdn.com/nmcms/events/banner/desktop/media-desktop-stand-up-comedy-open-mic-0-2024-1-8-t-14-58-50.jpg"
                 title="So Rude of Me By Sweets"
                 subtitle="Comedy Shows | English, Kannada | 18yrs+ | 2hr 30mins"
               />
@@ -47,7 +47,7 @@ const PlayPage = () => {
             <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3 flex items-center">
               <Poster
                 isPlay={true}
-                src="https://assets-in.bmscdn.com/nmcms/events/banner/desktop/media-desktop-so-rude-of-me-by-swati-sachdeva-0-2022-9-4-t-6-10-37.jpg"
+                src="https://static3.srcdn.com/wordpress/wp-content/uploads/2020/03/ReviewCC-Cropped.jpg"
                 title="So Rude of Me By Sweets"
                 subtitle="Comedy Shows | English, Kannada | 18yrs+ | 2hr 30mins"
               />
@@ -55,8 +55,8 @@ const PlayPage = () => {
             <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3 flex items-center">
               <Poster
                 isPlay={true}
-                src="https://assets-in.bmscdn.com/nmcms/events/banner/desktop/media-desktop-so-rude-of-me-by-swati-sachdeva-0-2022-9-4-t-6-10-37.jpg"
-                title="So Rude of Me By Sweets"
+                src="https://th.bing.com/th/id/OIP.qIj1wfCyEOnI-W58S40FWgAAAA?rs=1&pid=ImgDetMain"
+                title=<center>"Mr.Bean"</center>
                 subtitle="Comedy Shows | English, Kannada | 18yrs+ | 2hr 30mins"
               />
             </div>

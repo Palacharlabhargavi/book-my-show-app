@@ -61,7 +61,7 @@ function NavLg() {
             <BiSearch />
             <input
               type="search"
-              className="navbar bg-dark border-bottom border-body"
+              className="w-full bg-transparent border-none focus:outline-none"
               placeholder="Search for movies, events, plays, sports and activities"
             />
           </div>

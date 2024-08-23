@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js,jsx,ts}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
-        darkBackfround: {
+        darkBackground: {
           50: "#edf1fc",
           100: "#d3d4e1",
           200: "#b6b8c9",
@@ -33,4 +33,3 @@ module.exports = {
   },
   plugins: [],
 };
-
