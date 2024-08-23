@@ -3,8 +3,7 @@
 
 import React, { createContext, useState } from "react";
 
-export const MovieContext = createContext({ movie: {}, setMovie: () => {} });
-
+export const MovieContext = createContext();
 
 const MovieProvider = ({ children }) => {
   const [movie, setMovie] = useState({
