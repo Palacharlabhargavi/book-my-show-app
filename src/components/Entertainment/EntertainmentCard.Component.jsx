@@ -19,17 +19,17 @@ const EntertainmentCard = (props) => {
 
 const EntertainmentCardSlider = () => {
   const EntertainmentImage = [
-    "https://cdn4.vectorstock.com/i/1000x1000/04/33/workshop-icon-vector-6280433.jpg",
-    "https://tse2.mm.bing.net/th?id=OIP.6c0GT8ciPGro5Mwnadz93gHaH_&pid=Api&P=0&h=180",
-    "https://tse4.mm.bing.net/th?id=OIP.Sv5oohjOZ-DsbbpGG66oJQHaH5&pid=Api&P=0&h=180",
-    "https://cdn4.vectorstock.com/i/1000x1000/65/33/comedy-show-logo-badge-emblem-design-with-old-vector-19436533.jpg",
-    "https://tse3.mm.bing.net/th?id=OIP.fW-HFQa2RsMqbwg2TBu5jwHaH_&pid=Api&P=0&h=180",
-    "https://cdn1.vectorstock.com/i/1000x1000/75/60/logo-sport-shop-vector-5857560.jpgg",
-    "https://tse3.mm.bing.net/th?id=OIP.T6m08SRRuFiFPCp2MrGsvwHaH6&pid=Api&P=0&h=180",
-    "https://tse4.mm.bing.net/th?id=OIP.bI5yXZnSmk7HMgaIdzfHEgHaH_&pid=Api&P=0&h=180",
-    "https://tse3.mm.bing.net/th?id=OIP.tgbCLJNiHmlzJuwcI3u1hgHaH_&pid=Api&P=0&h=180",
-    "https://i.pinimg.com/originals/82/3b/86/823b86aca4b4b40bca8675750b1986be.jpg",
-    "https://tse1.mm.bing.net/th?id=OIP.4DHx1vAyobRLB_CQ-WjyeQHaH_&pid=Api&P=0&h=180",
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/bmshp-desktop-amusement-park-collection-202404190106.png",
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NDUrIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/workshop-and-more-web-collection-202211140440.png",
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/bmshp-desktop-kids-collection-202404190106.png",
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NzArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/comedy-shows-collection-202211140440.png",
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NDUrIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/music-shows-collection-202211140440.png",
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/upskill-collection-202211140440.png",
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NSBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/interactive-games-collection-202211140440.png",
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MjUrIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/arts-crafts-collection-202211140440.png",
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTUrIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/theatre-shows-collection-202211140440.png",
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTUrIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/adventure-fun-collection-202211140440.png",
+    
   ];
 
   const settings = {

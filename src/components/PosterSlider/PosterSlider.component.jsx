@@ -1,6 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
 import Poster from "../Posters/Poster.Component";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const PosterSlider = (props) => {
   const { posters, title, subtitle, isDark, config } = props;
