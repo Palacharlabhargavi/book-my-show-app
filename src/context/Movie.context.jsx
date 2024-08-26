@@ -1,6 +1,7 @@
 // Context API
 // We can store/edit/update data from any component & then can access it in any of the component
 
+
 import React, { createContext, useState } from "react";
 
 export const MovieContext = createContext();
@@ -13,11 +14,7 @@ const MovieProvider = ({ children }) => {
     backdrop_path: "",
     poster_path: "",
   });
-  return (
-    <MovieContext.Provider value={{ movie, setMovie }}>
-      {children}
-    </MovieContext.Provider>
-  );
+  return <MovieContext.Provider value={{movie, setMovie }}>{children}</MovieContext.Provider>;
 };
 
 export default MovieProvider;

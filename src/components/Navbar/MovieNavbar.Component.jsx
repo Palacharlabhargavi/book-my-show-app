@@ -10,9 +10,9 @@ const NavSm = () => {
         <div>
           <h3 className="text-xl font-bold">{movie.original_title}</h3>
         </div>
-      </div>
-      <div className="w-8 h-8">
-        <BiShareAlt className="w-full h-full" />
+        <div className="w-8 h-8">
+          <BiShareAlt className="w-full h-full" />
+        </div>
       </div>
     </>
   );
@@ -34,8 +34,8 @@ const NavLg = () => {
             <BiSearch />
             <input
               type="search"
-              className="w-full bg-transparent border-none focus: outline-none"
-              placeholder="Search for movies, events, plays, sports and activites"
+              className="w-full bg-transparent border-none focus:outline-none"
+              placeholder="Search for movies, events, plays, sports and activities"
             />
           </div>
         </div>
@@ -59,12 +59,12 @@ const MovieNavbar = () => {
   return (
     <>
       <nav className="bg-white border-b-2 lg:border-b-0 lg:bg-darkBackground-700 p-4">
-        {/* Small Screen Size */}
-        <div className="md:hidden">
+        <div className="lg:hidden">
+          {/* Mobile and Medium Screens */}
           <NavSm />
         </div>
-        {/* Only on Large Screen Size */}
         <div className="hidden w-full lg:flex">
+          {/* Large Screens */}
           <NavLg />
         </div>
       </nav>

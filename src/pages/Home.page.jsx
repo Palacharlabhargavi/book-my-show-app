@@ -24,7 +24,6 @@ const HomePage = () => {
     requestPopularMovies();
   }, []);
 
-
   useEffect(() => {
     const requestTopRatedMovies = async () => {
       const getTopRatedMovies = await axios.get("/movie/top_rated");
@@ -35,9 +34,7 @@ const HomePage = () => {
 
   useEffect(() => {
     const requestUpcomingMovies = async () => {
-      const getUpcomingMovies = await axios.get(
-        "/movie/upcoming"
-      );
+      const getUpcomingMovies = await axios.get("/movie/upcoming");
       setOnlineStreamEvents(getUpcomingMovies.data.results);
     };
     requestUpcomingMovies();
@@ -69,7 +66,7 @@ const HomePage = () => {
             <img
               src="https://in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/premiere-rupay-banner-web-collection-202104230555.png"
               alt="Rupay"
-              className="w-small h-small"
+              className="w-full h-full"
             />
           </div>
           <PosterSlider
